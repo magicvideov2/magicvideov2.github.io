@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title><MagicVideo V2></title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+  <h1 id="main-header">MagicVideo V2</h1>
+  <h2 id="sub-header">Multi-Stage High-Aesthetic Video Generation</h2>
+  <div class="publication-links">
+    <!-- <a href="your-link-to-paper" class="button">
+      <i class="fas fa-file-alt"></i>
+      <span>Paper</span>
+    </a> -->
+    <a href="your-link-to-arxiv" class="button">
+      <i class="fas fa-external-link-alt"></i>
+      <span>arXiv</span>
+    </a>
+    <!-- <a href="your-link-to-code" class="button">
+      <i class="fas fa-code"></i>
+      <span>Code</span>
+    </a>
+    <a href="your-link-to-demo" class="button">
+      <i class="fas fa-desktop"></i>
+      <span>Demo</span>
+    </a> -->
+  </div>
+
+  <div class="abstract">
+    <h3>Abstract</h3>
+    <p>The growing demand for high-fidelity video generation from textual descriptions has catalyzed significant research in this field. In this paper, we introduce MagicVideo V2, an innovative multi-stage Text-to-Image-to-Video (T2I2V) system that seamlessly integrates state-of-the-art Text-to-Image, spatial base module, motion module, reference image feature extractors, and frame interpolation all together to form a comprehensive end-to-end system. This system not only generates a high aesthetic start image based on a given text prompt, but also transforms this image and the accompanying text into an aesthetically pleasing, high-resolution video with remarkable fidelity and smoothness. MagicVideo V2 demonstrates superior performance over leading Text-to-Video systems such as Runway, Pika 1.0, Morph, Moon Valley, and SVD with clear-margined GSB (Good/Same/Bad) scores that are calculated by 61 independent human voters based on unbiasly selected 100 text prompts as the evaluation case. </p>
+  </div>
+
+  <div id="video-grid">
+    <!-- Videos will be inserted here by JavaScript -->
+  </div>
+
+    <div class="bibtex">
+    <h3>BibTeX</h3>
+    <pre>
+@misc{MagicVideoV2,
+  title={MagicVideo V2: Multi-Stage High-Aesthetic Video Generation},
+  author={},
+  year={2024},
+  eprint={},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV}
+}
+    </pre>
+  </div>
+  
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
